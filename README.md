@@ -36,7 +36,7 @@ Example extensions you can build:
 ### Install the skill
 
 ```bash
-npx skills add https://github.com/你的用户名/browser-extension-creator
+npx skills add https://github.com/shubaomi/browser-extension-creator.git
 ```
 
 Or install from a local `.skill` file:
