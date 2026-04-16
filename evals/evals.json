@@ -1,0 +1,23 @@
+{
+  "skill_name": "browser-extension-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我想做一个浏览器插件，功能是当我访问GitHub仓库页面的时候，自动在页面上显示这个仓库的star数量和fork数量",
+      "expected_output": "A complete Chrome extension project structure with manifest.json, background script, content script, and popup UI that displays GitHub repo stats",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我想做一个书签整理的浏览器插件，功能是自动把收藏夹里面的书签按照域名分类到不同的文件夹，需要支持Chrome和Firefox",
+      "expected_output": "A cross-browser extension project with bookmark API usage, domain-based categorization logic, and multi-browser manifest files",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "帮我看一下我现有的Chrome扩展项目，它用的是Manifest V2，我想升级到V3，应该怎么改？",
+      "expected_output": "Guidance on Manifest V2 to V3 migration, including background script to service worker conversion, permission changes, and breaking API updates",
+      "files": []
+    }
+  ]
+}
